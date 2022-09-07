@@ -1,0 +1,679 @@
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo
+$ git clone https://github.com/Gopinnk/SpringBootApps.git
+Cloning into 'SpringBootApps'...
+fatal: unable to access 'https://github.com/Gopinnk/SpringBootApps.git/': OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo
+$ cd SpringBootApps-Repo
+bash: cd: SpringBootApps-Repo: No such file or directory
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo
+$ git clone https://github.com/Gopinnk/SpringBootApps.git
+Cloning into 'SpringBootApps'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo
+$ cd SpringBootApps-Repo
+bash: cd: SpringBootApps-Repo: No such file or directory
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo
+$ cd SpringBootApps-Repo
+bash: cd: SpringBootApps-Repo: No such file or directory
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo
+$ cd SpringBootApps
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo/SpringBootApps (master)
+$ git branch
+* master
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo/SpringBootApps (master)
+$ git checkout -b SpringBootApps-1
+Switched to a new branch 'SpringBootApps-1'
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo/SpringBootApps (SpringBootApps-1)
+$ git branch -a
+* SpringBootApps-1
+  master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/master
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo/SpringBootApps (SpringBootApps-1)
+$ git status
+On branch SpringBootApps-1
+nothing to commit, working tree clean
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo/SpringBootApps (SpringBootApps-1)
+$ git status
+On branch SpringBootApps-1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        api-gateway/
+        firstmicroservice/
+        secondmicroservice/
+        service-registry/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo/SpringBootApps (SpringBootApps-1)
+$ git add .
+warning: LF will be replaced by CRLF in api-gateway/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in api-gateway/.mvn/wrapper/maven-wrapper.properties.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in api-gateway/mvnw.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in api-gateway/mvnw.cmd.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in api-gateway/pom.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in api-gateway/src/main/java/com/springboot/apigateway/ApiGatewayApplication.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in api-gateway/src/main/resources/application.yml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in api-gateway/src/test/java/com/springboot/apigateway/ApiGatewayApplicationTests.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in firstmicroservice/firstmicroservice/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in firstmicroservice/firstmicroservice/.mvn/wrapper/maven-wrapper.properties.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in firstmicroservice/firstmicroservice/mvnw.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in firstmicroservice/firstmicroservice/mvnw.cmd.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in firstmicroservice/firstmicroservice/pom.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in firstmicroservice/firstmicroservice/src/main/java/com/first/microservice/FirstMicroserviceApplication.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in firstmicroservice/firstmicroservice/src/main/resources/application.yml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in firstmicroservice/firstmicroservice/src/test/java/com/first/microservice/FirstMicroserviceApplicationTests.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in secondmicroservice/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in secondmicroservice/.mvn/wrapper/maven-wrapper.properties.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in secondmicroservice/mvnw.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in secondmicroservice/mvnw.cmd.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in secondmicroservice/pom.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in secondmicroservice/secondmicroservice/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in secondmicroservice/secondmicroservice/.mvn/wrapper/maven-wrapper.properties.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in secondmicroservice/secondmicroservice/mvnw.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in secondmicroservice/secondmicroservice/mvnw.cmd.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in secondmicroservice/secondmicroservice/pom.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in secondmicroservice/secondmicroservice/src/main/java/com/second/microservice/SecondMicroserviceApplication.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in secondmicroservice/secondmicroservice/src/main/resources/application.yml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in secondmicroservice/secondmicroservice/src/test/java/com/first/microservice/FirstMicroserviceApplicationTests.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in secondmicroservice/src/main/java/com/first/microservice/FirstMicroserviceApplication.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in secondmicroservice/src/main/resources/application.yml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in secondmicroservice/src/test/java/com/first/microservice/FirstMicroserviceApplicationTests.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in service-registry/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in service-registry/.mvn/wrapper/maven-wrapper.properties.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in service-registry/mvnw.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in service-registry/mvnw.cmd.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in service-registry/pom.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in service-registry/src/main/java/com/springboot/serviceregistry/ServiceRegistryApplication.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in service-registry/src/main/resources/application.yml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in service-registry/src/test/java/com/springboot/serviceregistry/ServiceRegistryApplicationTests.java.
+The file will have its original line endings in your working directory
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo/SpringBootApps (SpringBootApps-1)
+$ git status
+On branch SpringBootApps-1
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   api-gateway/.gitignore
+        new file:   api-gateway/.mvn/wrapper/maven-wrapper.jar
+        new file:   api-gateway/.mvn/wrapper/maven-wrapper.properties
+        new file:   api-gateway/mvnw
+        new file:   api-gateway/mvnw.cmd
+        new file:   api-gateway/pom.xml
+        new file:   api-gateway/src/main/java/com/springboot/apigateway/ApiGatewayApplication.java
+        new file:   api-gateway/src/main/resources/application.yml
+        new file:   api-gateway/src/test/java/com/springboot/apigateway/ApiGatewayApplicationTests.java
+        new file:   firstmicroservice/firstmicroservice/.gitignore
+        new file:   firstmicroservice/firstmicroservice/.mvn/wrapper/maven-wrapper.jar
+        new file:   firstmicroservice/firstmicroservice/.mvn/wrapper/maven-wrapper.properties
+        new file:   firstmicroservice/firstmicroservice/mvnw
+        new file:   firstmicroservice/firstmicroservice/mvnw.cmd
+        new file:   firstmicroservice/firstmicroservice/pom.xml
+        new file:   firstmicroservice/firstmicroservice/src/main/java/com/first/microservice/FirstMicroserviceApplication.java
+        new file:   firstmicroservice/firstmicroservice/src/main/java/com/first/microservice/controller/Firstcontroller.java
+        new file:   firstmicroservice/firstmicroservice/src/main/resources/application.yml
+        new file:   firstmicroservice/firstmicroservice/src/test/java/com/first/microservice/FirstMicroserviceApplicationTests.java
+        new file:   secondmicroservice/.gitignore
+        new file:   secondmicroservice/.mvn/wrapper/maven-wrapper.jar
+        new file:   secondmicroservice/.mvn/wrapper/maven-wrapper.properties
+        new file:   secondmicroservice/mvnw
+        new file:   secondmicroservice/mvnw.cmd
+        new file:   secondmicroservice/pom.xml
+        new file:   secondmicroservice/secondmicroservice/.gitignore
+        new file:   secondmicroservice/secondmicroservice/.mvn/wrapper/maven-wrapper.jar
+        new file:   secondmicroservice/secondmicroservice/.mvn/wrapper/maven-wrapper.properties
+        new file:   secondmicroservice/secondmicroservice/mvnw
+        new file:   secondmicroservice/secondmicroservice/mvnw.cmd
+        new file:   secondmicroservice/secondmicroservice/pom.xml
+        new file:   secondmicroservice/secondmicroservice/src/main/java/com/second/microservice/SecondMicroserviceApplication.java
+        new file:   secondmicroservice/secondmicroservice/src/main/java/com/second/microservice/controller/Secondcontroller.java
+        new file:   secondmicroservice/secondmicroservice/src/main/resources/application.yml
+        new file:   secondmicroservice/secondmicroservice/src/test/java/com/first/microservice/FirstMicroserviceApplicationTests.java
+        new file:   secondmicroservice/src/main/java/com/first/microservice/FirstMicroserviceApplication.java
+        new file:   secondmicroservice/src/main/java/com/first/microservice/controller/Firstcontroller.java
+        new file:   secondmicroservice/src/main/resources/application.yml
+        new file:   secondmicroservice/src/test/java/com/first/microservice/FirstMicroserviceApplicationTests.java
+        new file:   service-registry/.gitignore
+        new file:   service-registry/.mvn/wrapper/maven-wrapper.jar
+        new file:   service-registry/.mvn/wrapper/maven-wrapper.properties
+        new file:   service-registry/mvnw
+        new file:   service-registry/mvnw.cmd
+        new file:   service-registry/pom.xml
+        new file:   service-registry/src/main/java/com/springboot/serviceregistry/ServiceRegistryApplication.java
+        new file:   service-registry/src/main/resources/application.yml
+        new file:   service-registry/src/test/java/com/springboot/serviceregistry/ServiceRegistryApplicationTests.java
+
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo/SpringBootApps (SpringBootApps-1)
+$ git commit -m "Added Microservices programs"
+[SpringBootApps-1 131fb15] Added Microservices programs
+ Committer: Gopi Vellireddy <Gopi.Vellireddy@coforge.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 48 files changed, 3263 insertions(+)
+ create mode 100644 api-gateway/.gitignore
+ create mode 100644 api-gateway/.mvn/wrapper/maven-wrapper.jar
+ create mode 100644 api-gateway/.mvn/wrapper/maven-wrapper.properties
+ create mode 100644 api-gateway/mvnw
+ create mode 100644 api-gateway/mvnw.cmd
+ create mode 100644 api-gateway/pom.xml
+ create mode 100644 api-gateway/src/main/java/com/springboot/apigateway/ApiGatewayApplication.java
+ create mode 100644 api-gateway/src/main/resources/application.yml
+ create mode 100644 api-gateway/src/test/java/com/springboot/apigateway/ApiGatewayApplicationTests.java
+ create mode 100644 firstmicroservice/firstmicroservice/.gitignore
+ create mode 100644 firstmicroservice/firstmicroservice/.mvn/wrapper/maven-wrapper.jar
+ create mode 100644 firstmicroservice/firstmicroservice/.mvn/wrapper/maven-wrapper.properties
+ create mode 100644 firstmicroservice/firstmicroservice/mvnw
+ create mode 100644 firstmicroservice/firstmicroservice/mvnw.cmd
+ create mode 100644 firstmicroservice/firstmicroservice/pom.xml
+ create mode 100644 firstmicroservice/firstmicroservice/src/main/java/com/first/microservice/FirstMicroserviceApplication.java
+ create mode 100644 firstmicroservice/firstmicroservice/src/main/java/com/first/microservice/controller/Firstcontroller.java
+ create mode 100644 firstmicroservice/firstmicroservice/src/main/resources/application.yml
+ create mode 100644 firstmicroservice/firstmicroservice/src/test/java/com/first/microservice/FirstMicroserviceApplicationTests.java
+ create mode 100644 secondmicroservice/.gitignore
+ create mode 100644 secondmicroservice/.mvn/wrapper/maven-wrapper.jar
+ create mode 100644 secondmicroservice/.mvn/wrapper/maven-wrapper.properties
+ create mode 100644 secondmicroservice/mvnw
+ create mode 100644 secondmicroservice/mvnw.cmd
+ create mode 100644 secondmicroservice/pom.xml
+ create mode 100644 secondmicroservice/secondmicroservice/.gitignore
+ create mode 100644 secondmicroservice/secondmicroservice/.mvn/wrapper/maven-wrapper.jar
+ create mode 100644 secondmicroservice/secondmicroservice/.mvn/wrapper/maven-wrapper.properties
+ create mode 100644 secondmicroservice/secondmicroservice/mvnw
+ create mode 100644 secondmicroservice/secondmicroservice/mvnw.cmd
+ create mode 100644 secondmicroservice/secondmicroservice/pom.xml
+ create mode 100644 secondmicroservice/secondmicroservice/src/main/java/com/second/microservice/SecondMicroserviceApplication.java
+ create mode 100644 secondmicroservice/secondmicroservice/src/main/java/com/second/microservice/controller/Secondcontroller.java
+ create mode 100644 secondmicroservice/secondmicroservice/src/main/resources/application.yml
+ create mode 100644 secondmicroservice/secondmicroservice/src/test/java/com/first/microservice/FirstMicroserviceApplicationTests.java
+ create mode 100644 secondmicroservice/src/main/java/com/first/microservice/FirstMicroserviceApplication.java
+ create mode 100644 secondmicroservice/src/main/java/com/first/microservice/controller/Firstcontroller.java
+ create mode 100644 secondmicroservice/src/main/resources/application.yml
+ create mode 100644 secondmicroservice/src/test/java/com/first/microservice/FirstMicroserviceApplicationTests.java
+ create mode 100644 service-registry/.gitignore
+ create mode 100644 service-registry/.mvn/wrapper/maven-wrapper.jar
+ create mode 100644 service-registry/.mvn/wrapper/maven-wrapper.properties
+ create mode 100644 service-registry/mvnw
+ create mode 100644 service-registry/mvnw.cmd
+ create mode 100644 service-registry/pom.xml
+ create mode 100644 service-registry/src/main/java/com/springboot/serviceregistry/ServiceRegistryApplication.java
+ create mode 100644 service-registry/src/main/resources/application.yml
+ create mode 100644 service-registry/src/test/java/com/springboot/serviceregistry/ServiceRegistryApplicationTests.java
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo/SpringBootApps (SpringBootApps-1)
+$ git push -u origin SpringBootApps-1
+Enumerating objects: 91, done.
+Counting objects: 100% (91/91), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (53/53), done.
+Writing objects: 100% (90/90), 64.03 KiB | 4.57 MiB/s, done.
+Total 90 (delta 17), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (17/17), done.
+remote:
+remote: Create a pull request for 'SpringBootApps-1' on GitHub by visiting:
+remote:      https://github.com/Gopinnk/SpringBootApps/pull/new/SpringBootApps-1
+remote:
+To https://github.com/Gopinnk/SpringBootApps.git
+ * [new branch]      SpringBootApps-1 -> SpringBootApps-1
+branch 'SpringBootApps-1' set up to track 'origin/SpringBootApps-1'.
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo/SpringBootApps (SpringBootApps-1)
+$ git status
+On branch SpringBootApps-1
+Your branch is up to date with 'origin/SpringBootApps-1'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    firstmicroservice/firstmicroservice/.gitignore
+        deleted:    firstmicroservice/firstmicroservice/.mvn/wrapper/maven-wrapper.jar
+        deleted:    firstmicroservice/firstmicroservice/.mvn/wrapper/maven-wrapper.properties
+        deleted:    firstmicroservice/firstmicroservice/mvnw
+        deleted:    firstmicroservice/firstmicroservice/mvnw.cmd
+        deleted:    firstmicroservice/firstmicroservice/pom.xml
+        deleted:    firstmicroservice/firstmicroservice/src/main/java/com/first/microservice/FirstMicroserviceApplication.java
+        deleted:    firstmicroservice/firstmicroservice/src/main/java/com/first/microservice/controller/Firstcontroller.java
+        deleted:    firstmicroservice/firstmicroservice/src/main/resources/application.yml
+        deleted:    firstmicroservice/firstmicroservice/src/test/java/com/first/microservice/FirstMicroserviceApplicationTests.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        firstmicroservice/.gitignore
+        firstmicroservice/.mvn/
+        firstmicroservice/mvnw
+        firstmicroservice/mvnw.cmd
+        firstmicroservice/pom.xml
+        firstmicroservice/src/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo/SpringBootApps (SpringBootApps-1)
+$ git add .
+warning: LF will be replaced by CRLF in firstmicroservice/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in firstmicroservice/.mvn/wrapper/maven-wrapper.properties.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in firstmicroservice/mvnw.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in firstmicroservice/mvnw.cmd.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in firstmicroservice/pom.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in firstmicroservice/src/main/java/com/first/microservice/FirstMicroserviceApplication.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in firstmicroservice/src/main/resources/application.yml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in firstmicroservice/src/test/java/com/first/microservice/FirstMicroserviceApplicationTests.java.
+The file will have its original line endings in your working directory
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo/SpringBootApps (SpringBootApps-1)
+$ git commit -m "One level of folder removed for firstmicroservice"
+[SpringBootApps-1 916ba57] One level of folder removed for firstmicroservice
+ Committer: Gopi Vellireddy <Gopi.Vellireddy@coforge.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 10 files changed, 0 insertions(+), 0 deletions(-)
+ rename firstmicroservice/{firstmicroservice => }/.gitignore (100%)
+ rename firstmicroservice/{firstmicroservice => }/.mvn/wrapper/maven-wrapper.jar (100%)
+ rename firstmicroservice/{firstmicroservice => }/.mvn/wrapper/maven-wrapper.properties (100%)
+ rename firstmicroservice/{firstmicroservice => }/mvnw (100%)
+ rename firstmicroservice/{firstmicroservice => }/mvnw.cmd (100%)
+ rename firstmicroservice/{firstmicroservice => }/pom.xml (100%)
+ rename firstmicroservice/{firstmicroservice => }/src/main/java/com/first/microservice/FirstMicroserviceApplication.java (100%)
+ rename firstmicroservice/{firstmicroservice => }/src/main/java/com/first/microservice/controller/Firstcontroller.java (100%)
+ rename firstmicroservice/{firstmicroservice => }/src/main/resources/application.yml (100%)
+ rename firstmicroservice/{firstmicroservice => }/src/test/java/com/first/microservice/FirstMicroserviceApplicationTests.java (100%)
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo/SpringBootApps (SpringBootApps-1)
+$ git push -u origin SpringBootApps-1
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 279 bytes | 279.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Gopinnk/SpringBootApps.git
+   131fb15..916ba57  SpringBootApps-1 -> SpringBootApps-1
+branch 'SpringBootApps-1' set up to track 'origin/SpringBootApps-1'.
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo/SpringBootApps (SpringBootApps-1)
+$ git branch
+* SpringBootApps-1
+  master
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo/SpringBootApps (SpringBootApps-1)
+$ git switch master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo/SpringBootApps (master)
+$ git branch -a
+  SpringBootApps-1
+* master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/SpringBootApps-1
+  remotes/origin/master
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo/SpringBootApps (master)
+$ git checkout master
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo/SpringBootApps (master)
+$ git pull
+Already up to date.
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo/SpringBootApps (master)
+$ git merge SpringBootApps-1
+Updating 73f1b7d..916ba57
+Fast-forward
+ api-gateway/.gitignore                             |  33 +++
+ api-gateway/.mvn/wrapper/maven-wrapper.jar         | Bin 0 -> 58727 bytes
+ api-gateway/.mvn/wrapper/maven-wrapper.properties  |   2 +
+ api-gateway/mvnw                                   | 316 +++++++++++++++++++++
+ api-gateway/mvnw.cmd                               | 188 ++++++++++++
+ api-gateway/pom.xml                                |  85 ++++++
+ .../apigateway/ApiGatewayApplication.java          |  20 ++
+ api-gateway/src/main/resources/application.yml     |  40 +++
+ .../apigateway/ApiGatewayApplicationTests.java     |  13 +
+ firstmicroservice/.gitignore                       |  33 +++
+ firstmicroservice/.mvn/wrapper/maven-wrapper.jar   | Bin 0 -> 58727 bytes
+ .../.mvn/wrapper/maven-wrapper.properties          |   2 +
+ firstmicroservice/mvnw                             | 316 +++++++++++++++++++++
+ firstmicroservice/mvnw.cmd                         | 188 ++++++++++++
+ firstmicroservice/pom.xml                          |  46 +++
+ .../microservice/FirstMicroserviceApplication.java |  15 +
+ .../microservice/controller/Firstcontroller.java   |  17 ++
+ .../src/main/resources/application.yml             |  10 +
+ .../FirstMicroserviceApplicationTests.java         |  13 +
+ secondmicroservice/.gitignore                      |  33 +++
+ secondmicroservice/.mvn/wrapper/maven-wrapper.jar  | Bin 0 -> 58727 bytes
+ .../.mvn/wrapper/maven-wrapper.properties          |   2 +
+ secondmicroservice/mvnw                            | 316 +++++++++++++++++++++
+ secondmicroservice/mvnw.cmd                        | 188 ++++++++++++
+ secondmicroservice/pom.xml                         |  41 +++
+ secondmicroservice/secondmicroservice/.gitignore   |  33 +++
+ .../.mvn/wrapper/maven-wrapper.jar                 | Bin 0 -> 58727 bytes
+ .../.mvn/wrapper/maven-wrapper.properties          |   2 +
+ secondmicroservice/secondmicroservice/mvnw         | 316 +++++++++++++++++++++
+ secondmicroservice/secondmicroservice/mvnw.cmd     | 188 ++++++++++++
+ secondmicroservice/secondmicroservice/pom.xml      |  46 +++
+ .../SecondMicroserviceApplication.java             |  15 +
+ .../microservice/controller/Secondcontroller.java  |  17 ++
+ .../src/main/resources/application.yml             |  12 +
+ .../FirstMicroserviceApplicationTests.java         |  13 +
+ .../microservice/FirstMicroserviceApplication.java |  13 +
+ .../microservice/controller/Firstcontroller.java   |  17 ++
+ .../src/main/resources/application.yml             |   5 +
+ .../FirstMicroserviceApplicationTests.java         |  13 +
+ service-registry/.gitignore                        |  33 +++
+ service-registry/.mvn/wrapper/maven-wrapper.jar    | Bin 0 -> 58727 bytes
+ .../.mvn/wrapper/maven-wrapper.properties          |   2 +
+ service-registry/mvnw                              | 316 +++++++++++++++++++++
+ service-registry/mvnw.cmd                          | 188 ++++++++++++
+ service-registry/pom.xml                           |  79 ++++++
+ .../ServiceRegistryApplication.java                |  16 ++
+ .../src/main/resources/application.yml             |   9 +
+ .../ServiceRegistryApplicationTests.java           |  13 +
+ 48 files changed, 3263 insertions(+)
+ create mode 100644 api-gateway/.gitignore
+ create mode 100644 api-gateway/.mvn/wrapper/maven-wrapper.jar
+ create mode 100644 api-gateway/.mvn/wrapper/maven-wrapper.properties
+ create mode 100644 api-gateway/mvnw
+ create mode 100644 api-gateway/mvnw.cmd
+ create mode 100644 api-gateway/pom.xml
+ create mode 100644 api-gateway/src/main/java/com/springboot/apigateway/ApiGatewayApplication.java
+ create mode 100644 api-gateway/src/main/resources/application.yml
+ create mode 100644 api-gateway/src/test/java/com/springboot/apigateway/ApiGatewayApplicationTests.java
+ create mode 100644 firstmicroservice/.gitignore
+ create mode 100644 firstmicroservice/.mvn/wrapper/maven-wrapper.jar
+ create mode 100644 firstmicroservice/.mvn/wrapper/maven-wrapper.properties
+ create mode 100644 firstmicroservice/mvnw
+ create mode 100644 firstmicroservice/mvnw.cmd
+ create mode 100644 firstmicroservice/pom.xml
+ create mode 100644 firstmicroservice/src/main/java/com/first/microservice/FirstMicroserviceApplication.java
+ create mode 100644 firstmicroservice/src/main/java/com/first/microservice/controller/Firstcontroller.java
+ create mode 100644 firstmicroservice/src/main/resources/application.yml
+ create mode 100644 firstmicroservice/src/test/java/com/first/microservice/FirstMicroserviceApplicationTests.java
+ create mode 100644 secondmicroservice/.gitignore
+ create mode 100644 secondmicroservice/.mvn/wrapper/maven-wrapper.jar
+ create mode 100644 secondmicroservice/.mvn/wrapper/maven-wrapper.properties
+ create mode 100644 secondmicroservice/mvnw
+ create mode 100644 secondmicroservice/mvnw.cmd
+ create mode 100644 secondmicroservice/pom.xml
+ create mode 100644 secondmicroservice/secondmicroservice/.gitignore
+ create mode 100644 secondmicroservice/secondmicroservice/.mvn/wrapper/maven-wrapper.jar
+ create mode 100644 secondmicroservice/secondmicroservice/.mvn/wrapper/maven-wrapper.properties
+ create mode 100644 secondmicroservice/secondmicroservice/mvnw
+ create mode 100644 secondmicroservice/secondmicroservice/mvnw.cmd
+ create mode 100644 secondmicroservice/secondmicroservice/pom.xml
+ create mode 100644 secondmicroservice/secondmicroservice/src/main/java/com/second/microservice/SecondMicroserviceApplication.java
+ create mode 100644 secondmicroservice/secondmicroservice/src/main/java/com/second/microservice/controller/Secondcontroller.java
+ create mode 100644 secondmicroservice/secondmicroservice/src/main/resources/application.yml
+ create mode 100644 secondmicroservice/secondmicroservice/src/test/java/com/first/microservice/FirstMicroserviceApplicationTests.java
+ create mode 100644 secondmicroservice/src/main/java/com/first/microservice/FirstMicroserviceApplication.java
+ create mode 100644 secondmicroservice/src/main/java/com/first/microservice/controller/Firstcontroller.java
+ create mode 100644 secondmicroservice/src/main/resources/application.yml
+ create mode 100644 secondmicroservice/src/test/java/com/first/microservice/FirstMicroserviceApplicationTests.java
+ create mode 100644 service-registry/.gitignore
+ create mode 100644 service-registry/.mvn/wrapper/maven-wrapper.jar
+ create mode 100644 service-registry/.mvn/wrapper/maven-wrapper.properties
+ create mode 100644 service-registry/mvnw
+ create mode 100644 service-registry/mvnw.cmd
+ create mode 100644 service-registry/pom.xml
+ create mode 100644 service-registry/src/main/java/com/springboot/serviceregistry/ServiceRegistryApplication.java
+ create mode 100644 service-registry/src/main/resources/application.yml
+ create mode 100644 service-registry/src/test/java/com/springboot/serviceregistry/ServiceRegistryApplicationTests.java
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo/SpringBootApps (master)
+$ git push origin master
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Gopinnk/SpringBootApps.git
+   73f1b7d..916ba57  master -> master
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo/SpringBootApps (master)
+$ git push origin master
+Everything up-to-date
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo/SpringBootApps (master)
+$ git pull
+Already up to date.
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo/SpringBootApps (master)
+$ git branch -a
+  SpringBootApps-1
+* master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/SpringBootApps-1
+  remotes/origin/master
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo/SpringBootApps (master)
+$ git switch SpringBootApps-1
+Switched to branch 'SpringBootApps-1'
+M       firstmicroservice/src/main/java/com/first/microservice/controller/Firstcontroller.java
+Your branch is up to date with 'origin/SpringBootApps-1'.
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo/SpringBootApps (SpringBootApps-1)
+$ git status
+On branch SpringBootApps-1
+Your branch is up to date with 'origin/SpringBootApps-1'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   firstmicroservice/src/main/java/com/first/microservice/controller/Firstcontroller.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo/SpringBootApps (SpringBootApps-1)
+$ git add .
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo/SpringBootApps (SpringBootApps-1)
+$ git status
+On branch SpringBootApps-1
+Your branch is up to date with 'origin/SpringBootApps-1'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   firstmicroservice/src/main/java/com/first/microservice/controller/Firstcontroller.java
+
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo/SpringBootApps (SpringBootApps-1)
+$ git commit -m "Updated controller class"
+[SpringBootApps-1 a497196] Updated controller class
+ Committer: Gopi Vellireddy <Gopi.Vellireddy@coforge.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo/SpringBootApps (SpringBootApps-1)
+$ git push
+
+Enumerating objects: 21, done.
+Counting objects: 100% (21/21), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (11/11), 772 bytes | 772.00 KiB/s, done.
+Total 11 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To https://github.com/Gopinnk/SpringBootApps.git
+   916ba57..a497196  SpringBootApps-1 -> SpringBootApps-1
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo/SpringBootApps (SpringBootApps-1)
+$
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo/SpringBootApps (SpringBootApps-1)
+$ git switch master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo/SpringBootApps (master)
+$ git pull
+fatal: unable to access 'https://github.com/Gopinnk/SpringBootApps.git/': OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo/SpringBootApps (master)
+$ git pull
+Already up to date.
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo/SpringBootApps (master)
+$ git merge SpringBootApps-1
+Updating 916ba57..a497196
+Fast-forward
+ .../main/java/com/first/microservice/controller/Firstcontroller.java    | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo/SpringBootApps (master)
+$ git push origin master
+fatal: unable to access 'https://github.com/Gopinnk/SpringBootApps.git/': OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo/SpringBootApps (master)
+$ git push origin master
+fatal: unable to access 'https://github.com/Gopinnk/SpringBootApps.git/': OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo/SpringBootApps (master)
+$ git push
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Gopinnk/SpringBootApps.git
+   916ba57..a497196  master -> master
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo/SpringBootApps (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo/SpringBootApps (master)
+$ cd ..
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo
+$ cd ..
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d
+$ cd SpringBootApps-Repo/
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo
+$ cd SpringBootApps/
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo/SpringBootApps (master)
+$ git switch SpringBootApps-1
+Switched to branch 'SpringBootApps-1'
+Your branch is up to date with 'origin/SpringBootApps-1'.
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo/SpringBootApps (SpringBootApps-1)
+$ git checkout -b /feature/SpringBootApps-2
+fatal: 'C:/Program Files/Git/feature/SpringBootApps-2' is not a valid branch name
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo/SpringBootApps (SpringBootApps-1)
+$ git checkout -b feature/SpringBootApps-2
+Switched to a new branch 'feature/SpringBootApps-2'
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo/SpringBootApps (feature/SpringBootApps-2)
+$ git status
+On branch feature/SpringBootApps-2
+nothing to commit, working tree clean
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo/SpringBootApps (feature/SpringBootApps-2)
+$ git push
+fatal: The current branch feature/SpringBootApps-2 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin feature/SpringBootApps-2
+
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo/SpringBootApps (feature/SpringBootApps-2)
+$ git push -u origin feature/SpringBootApps-2
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'feature/SpringBootApps-2' on GitHub by visiting:
+remote:      https://github.com/Gopinnk/SpringBootApps/pull/new/feature/SpringBootApps-2
+remote:
+To https://github.com/Gopinnk/SpringBootApps.git
+ * [new branch]      feature/SpringBootApps-2 -> feature/SpringBootApps-2
+branch 'feature/SpringBootApps-2' set up to track 'origin/feature/SpringBootApps-2'.
+
+Gopi.Vellireddy@LAP-RKT-0X99226 MINGW64 /d/SpringBootApps-Repo/SpringBootApps (feature/SpringBootApps-2)
+$
